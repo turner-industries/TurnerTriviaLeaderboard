@@ -1,0 +1,18 @@
+machine:
+  node:
+    version: 6.1.0
+
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+    TEST_REPORT_PATH: $CIRCLE_TEST_REPORTS
+    TEST_REPORT_FILENAME: test-results.xml
+
+dependencies:
+  override:
+    - yarn
+  cache_directories:
+    - ~/.cache/yarn
+
+test:
+  override:
+    - yarn test:ci
