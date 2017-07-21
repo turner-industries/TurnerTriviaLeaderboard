@@ -3025,6 +3025,10 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
+humanize-duration@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.10.0.tgz#4d15bccaefcb12401b4d80475cf6c49a039e3959"
+
 iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
@@ -5094,6 +5098,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-confetti@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-confetti/-/react-confetti-1.1.5.tgz#6118f6f1984bff7720778af5d6883259ed1b2b34"
 
 react-dev-utils@^2.0.0:
   version "2.0.0"
